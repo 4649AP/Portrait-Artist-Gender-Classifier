@@ -105,9 +105,13 @@ For the sake of comparision, model 4 maintained the halved class weights of mode
 
 ## Conclusion
 After implementing proportional class weights to overcome class imbalance and fine-tuning the base model, there was not significant improvement in predictive performance. There is no suggestion in this simple exploration that state-of-the-art image classification models are able to discern a portrait artist's gender above a baseline of 50%.
+This dataset combines a wide variety of mediums from simplistic line-art sketches to elaborately rendered oil paintings and with this modestly sized 3000+ image dataset, it may be too broad in scope to expect the model to achieve robust discrimination. 
+Further, the class imbalance present where the overwhelming majority of art was from male artists may have impaired the ability to learn differentiating elements based on gender.
+Finally, the model's inability to discern the artist's gender may actually reflect that there is no broad difference in art based on the artists gender that can be generalized and the artist's indvidual idiosyncracies are more significant.
 
 ## Future Work
+Further analysis of the results broken down by art styles could be produced to analyze which art styles the model had more or less success in predicting. Also, it would be beneficial to source an independent test set for better comparison acroos models.
 Perhaps by narrowing the range of styles in the dataset to simpler brush stroke art, such as monochrome manga or webcomics, there may be some improvements to performance and this may be explored in further work.
+Further, svolunteers could be asked via a survey to guess an artist's gender may assist to get a general sense of a human benchmark for gender identification.
 
-Also, it would be beneficial to source an independent test set for better model comparision.
 
