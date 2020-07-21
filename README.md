@@ -1,6 +1,6 @@
 # Can Deep Learning Discern a Portrait Artist's Gender?
 
-## Introduction
+## Introduction 
 
 Anecdotally, certain artists throughout history have been vaunted for their feminine or masculine art styles, particularly when depicting human forms. Also, the recent popularity the subreddit [r/MenDrawingWomen](https://www.reddit.com/r/mendrawingwomen/) has highlighted some of the vulgar inaccuracies of some male artist's depictions of the female body. Realistically I do not think I am personally able to determine an artist's gender purely based on their art.
 
